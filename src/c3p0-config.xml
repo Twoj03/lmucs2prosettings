@@ -3,10 +3,10 @@
     <default-config>
         <property name= "driverClass" >com.mysql.cj.jdbc.Driver</property>
         <property name= "jdbcUrl" >
-            jdbc:mysql://1.94.61.39:3306/proset? useSSL=false&amp;serverTimezone=GMT&amp;useUnicode=true&amp;characterEncoding=UTF-8
+            jdbc:mysql://localhost:3306/proset? useSSL=false&amp;serverTimezone=GMT&amp;useUnicode=true&amp;characterEncoding=UTF-8
         </property>
-        <property name= "user" >proset</property>
-        <property name= "password" >proset123</property>
+        <property name= "user" ></property>
+        <property name= "password" ></property>
         <property name= "checkoutTimeout" >30000</property>
         <property name= "initialPoolSize" >10</property>
         <property name= "maxIdleTime" >30</property>
@@ -14,13 +14,13 @@
         <property name= "minPoolSize" >10</property>
         <property name= "maxStatements" >200</property>
     </default-config>
-    <named-config name="fl">
+    <named-config name="prop">
         <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
         <property name="jdbcUrl">
-            jdbc:mysql://1.94.61.39:3306/proset? useSSL=false&amp;serverTimezone=GMT&amp;useUnicode=true&amp;characterEncoding=UTF-8
+            jdbc:mysql://localhost:3306/proset? useSSL=false&amp;serverTimezone=GMT&amp;useUnicode=true&amp;characterEncoding=UTF-8
         </property>
-        <property name="user">proset</property>
-        <property name="password">proset123</property>
+        <property name="user"></property>
+        <property name="password"></property>
         <property name="initialPoolSize">5</property>
         <property name="maxPoolSize">15</property>
     </named-config>
